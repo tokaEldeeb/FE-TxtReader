@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3em;
+    margin: 3em 0;
+  }
+  
+  .left-side{
+    flex: 1;
+  }
+
+  .right-side{
+    flex: 3;
+  }

@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.header-item {
+    display: flex;
+    columns: 1;
+    align-items: center;
+}
+
+
+.logo {
+    width: 53px;
+}
+
+#reset {
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: top;
+    font-size: 12px; /* Adjust the font size as needed */
+}

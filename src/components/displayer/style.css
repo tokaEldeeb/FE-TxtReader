@@ -1,0 +1,48 @@
+.displayer-content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+}
+
+.text-container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adjust the shadow values as needed */
+    border-radius: 8px;
+    margin: 0;
+    flex: 3;
+    max-height: 650px;
+    overflow-y: scroll;
+}
+
+.counter {
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+    padding: 1em;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    height: 87px;
+}
+
+.counter-icon {
+    border-radius: 100px;
+    padding: 25px;
+    background-color: #c7222278;
+}
+
+.counter-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4em;
+}
+
+@media screen and (max-width: 890px){
+    .displayer-content {
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 1em;
+    }
+  }
