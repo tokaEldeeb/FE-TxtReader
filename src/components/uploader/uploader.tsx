@@ -8,7 +8,7 @@ const Uploader = (props: {onFileChange: (file: React.ChangeEvent<HTMLInputElemen
     return (
         <div>
             <div className="container">
-                <input type="file" onChange={props.onFileChange} accept=".txt"/>
+                <input role="file-input" type="file" onChange={props.onFileChange} accept=".txt"/>
                 <div className="uploader-content">
                     <DescriptionIcon style={{ fontSize: '10em', color: '#faaf41' }} />
                     <Body><>Click to upload a .txt file</></Body>
